@@ -1,7 +1,6 @@
-# oda-automated-test
-Zero Code Testing framework for Oracle Digital Assistant
+# Zero Code Testing Framework for Oracle Digital Assistant
 
-This automation test framework has 2 parts :
+This test framework has 2 parts :
 1. bot-webhook-server
 2. bot-test-framework
 
