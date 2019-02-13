@@ -35,3 +35,15 @@ Define some scenarios based on the samples provided. And then you are ready to r
 ```
 node index.js
 ```
+
+## How to define tests & scenarios
+1. You need to create a separate .json files for each tests. For example, order pizza, book time, file expenses etc.
+2. Each test file will have:
+   1. "testName"
+   2. One or more "scenarios"
+	
+Each scenario must have:
+1. name
+2. send - object with property "text"/"card"/"postback"/"location"
+3. receive - An array of objects with "text"/"cardWithTitles"/"optionsWithLabels"/"attachment"
+   1. Define multiple receive if you expect bot to respond multiple times for one interaction.
