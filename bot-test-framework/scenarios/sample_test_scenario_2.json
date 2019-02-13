@@ -1,8 +1,6 @@
 
 {
 	"testName": "Pasta Scenario 1", 
-	"exitBot": "Exit Bot", 
-	"useExitBot": false, 
 	"scenarios": [{
 			"name": "Order Pasta", 
 			"send": { 

@@ -1,7 +1,5 @@
 {
 	"testName": "Pizza Scenario 1",
-	"exitBot": "Exit Bot",
-	"useExitBot": false,
 	"scenarios": [{
 			"name": "Order With Type",
 			"send": {

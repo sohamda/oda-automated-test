@@ -1,7 +1,5 @@
 {
 	"testName": "Pizza Scenario - Start with invalid message to bot",
-	"exitBot": "Exit Bot",
-	"useExitBot": false,
 	"scenarios": [{
 			"name": "Specify Size",
 			"send": {
