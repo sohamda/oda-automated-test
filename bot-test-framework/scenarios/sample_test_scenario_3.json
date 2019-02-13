@@ -1,0 +1,41 @@
+{
+	"testName": "Pizza Scenario - Start with invalid message to bot",
+	"exitBot": "Exit Bot",
+	"useExitBot": false,
+	"scenarios": [{
+			"name": "Specify Size",
+			"send": {
+				"card": "SUPREME"
+			},
+			"receive": [{
+					"text": "What size do you want?"
+				}, {
+					"optionsWithLabels": ["Small", "Large", "Medium", "X-Large"]
+				}
+			]
+		}, {
+			"name": "Specify Location",
+			"send": {
+				"postback": "Medium"
+			},
+			"receive": [{
+					"text": "To which location do you want the pizza to be delivered?"
+				}
+			]
+		}, {
+			"name": "Send Location",
+			"send": {
+				"location": {
+					"longitude": -122.265987,
+					"latitude": 37.529818
+				}
+			},
+			"receive": [{
+					"text": "Thank you for your order, your Medium SUPREME pizza will be delivered in 30 minutes at GPS position 37.529818,-122.265987!"
+				}, {
+					"attachment": "image"
+				}
+			]
+		}
+	]
+}

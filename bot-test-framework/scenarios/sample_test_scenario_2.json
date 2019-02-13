@@ -1,0 +1,18 @@
+
+{
+	"testName": "Pasta Scenario 1", 
+	"exitBot": "Exit Bot", 
+	"useExitBot": false, 
+	"scenarios": [{
+			"name": "Order Pasta", 
+			"send": { 
+				"text": "order pasta"
+			},
+			"receive": [{ 
+					"text": "Sorry, no pasta today"
+				}
+			]
+		}
+	]
+}
+

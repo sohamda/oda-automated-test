@@ -1,0 +1,8 @@
+{
+	"userId": "soham",
+	"websocketEndpoint": "https://265f23a2.ngrok.io",
+	"sendMessageToBot": "/test/message",
+	"scenariosDirectory": "./scenarios/",
+	"resultsDirectory": "./results",
+	"waitTimeInMillis": 6000
+}

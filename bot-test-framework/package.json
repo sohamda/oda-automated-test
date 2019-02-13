@@ -1,0 +1,20 @@
+{
+  "name": "socket_io_test",
+  "version": "1.0.0",
+  "description": "socket io client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soham Dasgupta",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "dateformat": "^3.0.3",
+    "fs": "0.0.1-security",
+    "memory-cache": "^0.2.0",
+    "pubsub-js": "^1.7.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0"
+  }
+}
