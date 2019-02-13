@@ -1,6 +1,6 @@
 
 
-## Zero Code Automate test framework 
+## Zero Code Test framework 
 
 This is zero code bot test framework, where you just need to configure the settings and define some test sceanrios, and you are ready to go :)
 
